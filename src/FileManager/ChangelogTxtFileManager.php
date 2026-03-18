@@ -49,7 +49,7 @@ class ChangelogTxtFileManager
      * @param string $version
      * @return void
      */
-    public function writeVersion(string $version)
+    public function updateChangelog(string $version)
     {
         // first, read the contents of the changelog and prepend the version number, with the current date/time
         $changelog = file_get_contents($this->changelogFile);

@@ -31,9 +31,9 @@ class ChangelogTxtFileManager
     public function __construct(string $folder = '/', string $customChangelogFile = '')
     {
         $this->changelogFile = $folder . DIRECTORY_SEPARATOR;
-        if (trim($$customChangelogFile) !== '') {
+        if (trim($customChangelogFile) !== '') {
             // there is a custom changelog filename
-            $this->changelogFile .= trim($$customChangelogFile);
+            $this->changelogFile .= trim($customChangelogFile);
             $this->customChangelogFileName = trim($customChangelogFile);
         } else {
             // default:

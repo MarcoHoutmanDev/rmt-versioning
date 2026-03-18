@@ -62,7 +62,7 @@ class ChangelogTxtFileManager
             $underline = str_pad('', strlen($versionDate), '-');
 
             // prepend to the changelog
-            $changelog = $versionDate . PHP_EOL . $underline . PHP_EOL . PHP_EOL . $changelog;
+            $changelog = $versionDate . PHP_EOL . $underline . PHP_EOL . $changelog;
             // save it
             file_put_contents($this->changelogFile, $changelog);
         }

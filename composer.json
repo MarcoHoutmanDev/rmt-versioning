@@ -1,0 +1,25 @@
+{
+  "name": "marcohoutmandev/rmt-versioning",
+  "description": "Extension for the RMT package. Used for adding custom versioning + changelog handeling. ",
+  "type": "library",
+  "homepage": "https://github.com/MarcoHoutmanDev/rmt-versioning",
+  "keywords": [
+    "RMT",
+    "Versioning"
+  ],
+  "authors": [
+    {
+        "name": "Marco Houtman",
+        "email": "post@marcohoutman.dev"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MHD\\RmtVersioning\\": "src/"
+    }
+  },
+  "require": {
+    "php": "~8.4.0 || ~8.5.0",
+    "liip/rmt": "^1.9"
+  }
+}

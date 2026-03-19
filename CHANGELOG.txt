@@ -1,0 +1,12 @@
+- Adds Version to composer.json with Action
+- Adds clean up of code
+- Adds coding standards check (phpstan, phpmd and phpcs)
+- Updates README.md
+
+1.0.1 - 2026-03-19 18:39
+------------------------
+- Set version to 1.0.1 in composer.json to trigger packagist
+
+1.0.0 - 2026-03-18 20:48
+------------------------
+- Initial release. Works, but needs cleaning up.

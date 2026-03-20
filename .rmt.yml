@@ -34,4 +34,6 @@ main:
             tag-prefix: ''         # No more prefix for tags
     pre-release-actions:
         bin/UpdateVersionTxtAction.php: ~   # Update the version.txt file with the new version
-#        vcs-commit: ~              # Commit the CHANGELOG
+        bin/UpdateChangelogAction.php: ~     # Update the CHANGELOG.md file with the new version
+        bin/UpdateComposerJsonAction.php: ~       # Update the composer.json file with the new version
+        vcs-commit: ~              # Commit the changes
